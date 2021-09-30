@@ -1,0 +1,88 @@
+@media (max-width: 640px) {
+  #slider .slider__content p, #slider .slider__content h1 {
+    display: none;
+  }
+  header {
+    display: inline-block;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header nav {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  header nav li {
+    display: inline-block;
+    width: 100%;
+  }
+  header nav li a {
+    width: 100%;
+  }
+  header nav li#home {
+    width: auto;
+  }
+  header nav .sub-item {
+    display: none;
+  }
+  header i.fa-bars {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  header i.ti-search {
+    display: none;
+  }
+  header .more__subnav--dropdown {
+    width: 100%;
+  }
+  header .more__subnav--dropdown li {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  section .section__team--members {
+    margin-top: 16px;
+  }
+  section .section__team--members * {
+    width: 100%;
+  }
+  section .section__team--members img {
+    width: 55%;
+    margin: 0.8rem 0;
+    border-radius: 5px;
+  }
+  section .section__tour .section__tour--container .tour__city .tour__city-card {
+    width: 100%;
+    margin: 8px 0;
+  }
+  section .section__tour .section__tour--container .tour__city .tour__city-card .tour__city-card--detail button {
+    width: 100%;
+  }
+  section .section__contact--container .contact--main {
+    display: block;
+  }
+  section .section__contact--container .contact--main .contact--address {
+    margin: 16px 0;
+  }
+  section .section__contact--container .contact--main .contact--form {
+    width: 100%;
+    display: block;
+  }
+  section .section__contact--container .contact--main .contact--form input[name="name"], section .section__contact--container .contact--main .contact--form input[name="email"] {
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #838383;
+  }
+  .modal__window-popup--buy-tickets {
+    padding-top: 50px;
+  }
+  .modal__window-popup--buy-tickets .modal__window--content {
+    margin: 8px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

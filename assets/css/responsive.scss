@@ -1,0 +1,123 @@
+@media (max-width: 640px) {
+    #slider {
+        .slider__content{
+            p,h1{
+                display:none;
+            }
+        }
+       
+    }
+    header {
+        display: inline-block;
+        height: fit-content;
+
+        nav {
+            display: inline-block;
+            box-sizing: border-box;
+
+            li {
+                display: inline-block;
+
+                width: 100%;
+
+                a {
+                    width: 100%;
+                }
+
+            }
+
+            li#home {
+                width: auto;
+            }
+
+            .sub-item {
+                display: none;
+            }
+
+        }
+
+        i.fa-bars {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+        }
+
+        i.ti-search {
+            display: none;
+        }
+
+        .more__subnav--dropdown {
+            width: 100%;
+
+            li {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        .section__team--members {
+            margin-top: 16px;
+
+            * {
+                width: 100%;
+
+            }
+
+            img {
+                width: 55%;
+                margin: 0.8rem 0;
+                border-radius: 5px;
+            }
+           
+        }
+
+        .section__tour {
+            .section__tour--container {
+                .tour__city {
+                    .tour__city-card{
+                        width: 100%;
+                        margin: 8px 0;
+                        .tour__city-card--detail{
+                            button{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section__contact--container{
+            .contact--main {
+                display:block;
+                .contact--address{
+                   margin: 16px 0;
+                }
+                .contact--form{
+                    width: 100%;
+                    display: block;
+                    input[name="name"] , input[name="email"] {
+                        width: 100%;
+                        font-size: 15px;
+                        border: 1px solid rgb(131, 131, 131);
+                    }
+    
+                }
+            }
+        }
+    }
+    .modal__window-popup--buy-tickets{
+        padding-top: 50px ;
+        .modal__window--content{
+            
+            margin:8px;
+        }
+    }
+    
+
+}
